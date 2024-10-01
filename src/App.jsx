@@ -1,16 +1,34 @@
 import { Route, Routes } from "react-router-dom";
-import "./App.css";
-import HomePage from "./Pages/HomePage";
-import LoginPage from "./Pages/Authorization/LoginPage";
-import SignupPage from "./Pages/Authorization/SignupPage";
+import "./Styles/style.css";
+import HomePage from "./Pages/Home/HomePage";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import LoginPage from "./Pages/Authorization/Login/LoginPage";
+import SignupPage from "./Pages/Authorization/Signup/SignupPage";
+import { useDispatch } from "react-redux";
+import { fetchUsers } from "./Redux/Features/UserSlice";
+import { useEffect } from "react";
 
 function App() {
+  const dispatch = useDispatch();
+  
+  function getAllUsers() {
+    dispatch(fetchUsers());
+  }
+
+  useEffect(() => {
+    getAllUsers();
+  }, []);
+
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/login" element={<LoginPage />} />
-      <Route path="/signup" element={<SignupPage />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignupPage />} />
+      </Routes>
+      <ToastContainer />
+    </>
   );
 }
 

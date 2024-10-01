@@ -1,0 +1,19 @@
+.container{
+    margin-top: 100px;
+    /* display: inline-block; */
+    /* display: flex; */
+}
+ul {
+    display: flex;
+    justify-content: center; /* Make ul a flex container */
+    flex-wrap: wrap; 
+    list-style-type:none ;/* Ensure categories inside ul wrap properly */
+  }
+.category{
+    padding: 22px;
+}
+.category img{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+}

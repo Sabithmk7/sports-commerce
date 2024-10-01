@@ -1,0 +1,52 @@
+/* HeroSection.module.css */
+.heroContainer {
+  position: relative;
+  height: 100vh; /* Full screen height */
+  background-size: cover;
+  background-position: center;
+  margin-left: 1.5rem; /* Equivalent to mx-6 in Tailwind */
+  margin-right: 1.5rem;
+}
+
+.heroContent {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0); /* Transparent initially */
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding: 3.5rem; /* Equivalent to p-14 in Tailwind */
+}
+
+.heroContent:hover {
+  background-color: rgba(0, 0, 0, 0.5); /* Hover effect */
+}
+
+.heroTitle {
+  font-size: 2.5rem; /* Equivalent to text-4xl in Tailwind */
+  font-size: 3.75rem; /* Equivalent to md:text-6xl in Tailwind */
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2rem; /* Equivalent to mb-8 in Tailwind */
+}
+
+.heroDescription {
+  font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
+  color: white;
+  margin-bottom: 2rem; /* Equivalent to mb-8 in Tailwind */
+}
+
+.heroButton {
+  background-color: white;
+  color: black;
+  padding: 0.75rem 1.5rem; /* Equivalent to px-6 py-3 in Tailwind */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.heroButton:hover {
+  background-color: #bfbfbf; /* Equivalent to hover:bg-gray-400 in Tailwind */
+}

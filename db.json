@@ -1,253 +1,284 @@
 {
-    "users": [],
-    "categories": [
-      
-        {
-            "id": 1,
-            "image":"https://www.researchdive.com/blogImages/5NVUnjyBi7.jpeg",
-            "name": "Sportswear & Apparel"
-        },
-        {
-            "id": 2,
-            "image":"https://c.ndtvimg.com/2022-07/5mkud56_sneakers650_625x300_20_July_22.jpg",
-            "name": "Footwear"
-        },
-        {
-            "id": 3,
-            "image":"https://st2.depositphotos.com/1258191/5284/i/380/depositphotos_52841885-stock-photo-teenager-sports-equipment.jpg",
-            "name": "Accessories"
-        },
-        {
-            "id": 4,
-            "image":"https://eu-images.contentstack.com/v3/assets/blt2183a7e3152cc969/bltf2bed294a247e24c/64b1362df4f9923cf4036a60/Sports_20supplements_1197259141.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale",
-            "name": "Sports Nutrition"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "Football",
-            "category": "Accessories",
-            "price": 29.99,
-            "brand": "Nike",
-            "description": "Premium quality leather football for professional use.",
-            "image": "football.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Basketball",
-            "category": "Accessories",
-            "price": 34.99,
-            "brand": "Adidas",
-            "description": "Durable basketball ideal for outdoor play.",
-            "image": "basketball.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Tennis Racket",
-            "category": "Accessories",
-            "price": 89.99,
-            "brand": "Wilson",
-            "description": "Lightweight racket designed for professionals.",
-            "image": "tennis_racket.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Mountain Bike",
-            "category": "Accessories",
-            "price": 549.99,
-            "brand": "Giant",
-            "description": "Top-quality mountain bike for rugged terrains.",
-            "image": "mountain_bike.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Yoga Mat",
-            "category": "Accessories",
-            "price": 19.99,
-            "brand": "Reebok",
-            "description": "Non-slip yoga mat for superior grip during workouts.",
-            "image": "yoga_mat.jpg"
-        },
-        {
-            "id": 6,
-            "name": "Men's Running T-shirt",
-            "category": "Sportswear & Apparel",
-            "price": 24.99,
-            "brand": "Nike",
-            "description": "Breathable fabric for maximum performance.",
-            "image": "running_tshirt.jpg"
-        },
-        {
-            "id": 7,
-            "name": "Women's Leggings",
-            "category": "Sportswear & Apparel",
-            "price": 34.99,
-            "brand": "Adidas",
-            "description": "High-waisted leggings for comfort and support.",
-            "image": "leggings.jpg"
-        },
-        {
-            "id": 8,
-            "name": "Men's Football Jersey",
-            "category": "Sportswear & Apparel",
-            "price": 59.99,
-            "brand": "Nike",
-            "description": "Official team jersey with authentic logos.",
-            "image": "football_jersey.jpg"
-        },
-        {
-            "id": 9,
-            "name": "Women's Sports Bra",
-            "category": "Sportswear & Apparel",
-            "price": 29.99,
-            "brand": "Puma",
-            "description": "Maximum support sports bra for intense activities.",
-            "image": "sports_bra.jpg"
-        },
-        {
-            "id": 10,
-            "name": "Swimming Trunks",
-            "category": "Sportswear & Apparel",
-            "price": 19.99,
-            "brand": "Speedo",
-            "description": "Quick-dry swimming trunks ideal for water sports.",
-            "image": "swimming_trunks.jpg"
-        },
-        {
-            "id": 11,
-            "name": "Running Shoes",
-            "category": "Footwear",
-            "price": 99.99,
-            "brand": "Nike",
-            "description": "Lightweight running shoes with superior cushioning.",
-            "image": "running_shoes.jpg"
-        },
-        {
-            "id": 12,
-            "name": "Training Shoes",
-            "category": "Footwear",
-            "price": 89.99,
-            "brand": "Adidas",
-            "description": "Versatile training shoes for multi-purpose workouts.",
-            "image": "training_shoes.jpg"
-        },
-        {
-            "id": 13,
-            "name": "Football Cleats",
-            "category": "Footwear",
-            "price": 119.99,
-            "brand": "Nike",
-            "description": "Professional-grade football cleats with enhanced traction.",
-            "image": "football_cleats.jpg"
-        },
-        {
-            "id": 14,
-            "name": "Tennis Shoes",
-            "category": "Footwear",
-            "price": 89.99,
-            "brand": "Asics",
-            "description": "Durable tennis shoes designed for hard courts.",
-            "image": "tennis_shoes.jpg"
-        },
-        {
-            "id": 15,
-            "name": "Hiking Boots",
-            "category": "Footwear",
-            "price": 139.99,
-            "brand": "Salomon",
-            "description": "Waterproof hiking boots with ankle support.",
-            "image": "hiking_boots.jpg"
-        },
-        {
-            "id": 16,
-            "name": "Gym Bag",
-            "category": "Accessories",
-            "price": 49.99,
-            "brand": "Under Armour",
-            "description": "Spacious gym bag with multiple compartments.",
-            "image": "gym_bag.jpg"
-        },
-        {
-            "id": 17,
-            "name": "Water Bottle",
-            "category": "Accessories",
-            "price": 14.99,
-            "brand": "Hydro Flask",
-            "description": "Insulated water bottle to keep drinks cold for hours.",
-            "image": "water_bottle.jpg"
-        },
-        {
-            "id": 18,
-            "name": "Fitness Tracker",
-            "category": "Accessories",
-            "price": 199.99,
-            "brand": "Fitbit",
-            "description": "Track your steps, heart rate, and calories burned.",
-            "image": "fitness_tracker.jpg"
-        },
-        {
-            "id": 19,
-            "name": "Sports Cap",
-            "category": "Accessories",
-            "price": 19.99,
-            "brand": "New Era",
-            "description": "Comfortable sports cap with breathable fabric.",
-            "image": "sports_cap.jpg"
-        },
-        {
-            "id": 20,
-            "name": "Knee Pads",
-            "category": "Accessories",
-            "price": 24.99,
-            "brand": "McDavid",
-            "description": "Protective knee pads designed for impact sports.",
-            "image": "knee_pads.jpg"
-        },
-        {
-            "id": 21,
-            "name": "Protein Powder",
-            "category": "Sports Nutrition",
-            "price": 49.99,
-            "brand": "Optimum Nutrition",
-            "description": "High-quality protein powder to aid muscle recovery.",
-            "image": "protein_powder.jpg"
-        },
-        {
-            "id": 22,
-            "name": "Energy Bars",
-            "category": "Sports Nutrition",
-            "price": 14.99,
-            "brand": "Clif Bar",
-            "description": "Nutritious energy bars for sustained energy.",
-            "image": "energy_bars.jpg"
-        },
-        {
-            "id": 23,
-            "name": "Sports Drink",
-            "category": "Sports Nutrition",
-            "price": 19.99,
-            "brand": "Gatorade",
-            "description": "Electrolyte-packed drink for hydration.",
-            "image": "sports_drink.jpg"
-        },
-        {
-            "id": 24,
-            "name": "Creatine",
-            "category": "Sports Nutrition",
-            "price": 29.99,
-            "brand": "Cellucor",
-            "description": "Creatine supplement to enhance performance.",
-            "image": "creatine.jpg"
-        },
-        {
-            "id": 25,
-            "name": "Vitamins",
-            "category": "Sports Nutrition",
-            "price": 24.99,
-            "brand": "Vitafusion",
-            "description": "Daily multivitamins for overall health.",
-            "image": "vitamins.jpg"
-        }
-    ]
+  "users": [
+    {
+      "id": "bda2",
+      "name": "Sabith",
+      "email": "s@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "image": "https://www.researchdive.com/blogImages/5NVUnjyBi7.jpeg",
+      "name": "Sportswear & Apparel"
+    },
+    {
+      "id": 2,
+      "image": "https://c.ndtvimg.com/2022-07/5mkud56_sneakers650_625x300_20_July_22.jpg",
+      "name": "Footwear"
+    },
+    {
+      "id": 3,
+      "image": "https://st2.depositphotos.com/1258191/5284/i/380/depositphotos_52841885-stock-photo-teenager-sports-equipment.jpg",
+      "name": "Accessories"
+    },
+    {
+      "id": 4,
+      "image": "https://eu-images.contentstack.com/v3/assets/blt2183a7e3152cc969/bltf2bed294a247e24c/64b1362df4f9923cf4036a60/Sports_20supplements_1197259141.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale",
+      "name": "Sports Nutrition"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Football",
+      "category": "Accessories",
+      "price": 29.99,
+      "brand": "Nike",
+      "description": "Premium quality leather football for professional use.",
+      "image": "football.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 2,
+      "name": "Basketball",
+      "category": "Accessories",
+      "price": 34.99,
+      "brand": "Adidas",
+      "description": "Durable basketball ideal for outdoor play.",
+      "image": "basketball.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 3,
+      "name": "Tennis Racket",
+      "category": "Accessories",
+      "price": 89.99,
+      "brand": "Wilson",
+      "description": "Lightweight racket designed for professionals.",
+      "image": "tennis_racket.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 4,
+      "name": "Mountain Bike",
+      "category": "Accessories",
+      "price": 549.99,
+      "brand": "Giant",
+      "description": "Top-quality mountain bike for rugged terrains.",
+      "image": "mountain_bike.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 5,
+      "name": "Yoga Mat",
+      "category": "Accessories",
+      "price": 19.99,
+      "brand": "Reebok",
+      "description": "Non-slip yoga mat for superior grip during workouts.",
+      "image": "yoga_mat.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 6,
+      "name": "Men's Running T-shirt",
+      "category": "Sportswear & Apparel",
+      "price": 24.99,
+      "brand": "Nike",
+      "description": "Breathable fabric for maximum performance.",
+      "image": "running_tshirt.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 7,
+      "name": "Women's Leggings",
+      "category": "Sportswear & Apparel",
+      "price": 34.99,
+      "brand": "Adidas",
+      "description": "High-waisted leggings for comfort and support.",
+      "image": "leggings.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 8,
+      "name": "Men's Football Jersey",
+      "category": "Sportswear & Apparel",
+      "price": 59.99,
+      "brand": "Nike",
+      "description": "Official team jersey with authentic logos.",
+      "image": "football_jersey.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 9,
+      "name": "Women's Sports Bra",
+      "category": "Sportswear & Apparel",
+      "price": 29.99,
+      "brand": "Puma",
+      "description": "Maximum support sports bra for intense activities.",
+      "image": "sports_bra.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 10,
+      "name": "Swimming Trunks",
+      "category": "Sportswear & Apparel",
+      "price": 19.99,
+      "brand": "Speedo",
+      "description": "Quick-dry swimming trunks ideal for water sports.",
+      "image": "swimming_trunks.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 11,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "price": 99.99,
+      "brand": "Nike",
+      "description": "Lightweight running shoes with superior cushioning.",
+      "image": "running_shoes.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 12,
+      "name": "Training Shoes",
+      "category": "Footwear",
+      "price": 89.99,
+      "brand": "Adidas",
+      "description": "Versatile training shoes for multi-purpose workouts.",
+      "image": "training_shoes.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 13,
+      "name": "Football Cleats",
+      "category": "Footwear",
+      "price": 119.99,
+      "brand": "Nike",
+      "description": "Professional-grade football cleats with enhanced traction.",
+      "image": "football_cleats.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 14,
+      "name": "Tennis Shoes",
+      "category": "Footwear",
+      "price": 89.99,
+      "brand": "Asics",
+      "description": "Durable tennis shoes designed for hard courts.",
+      "image": "tennis_shoes.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 15,
+      "name": "Hiking Boots",
+      "category": "Footwear",
+      "price": 139.99,
+      "brand": "Salomon",
+      "description": "Waterproof hiking boots with ankle support.",
+      "image": "hiking_boots.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 16,
+      "name": "Gym Bag",
+      "category": "Accessories",
+      "price": 49.99,
+      "brand": "Under Armour",
+      "description": "Spacious gym bag with multiple compartments.",
+      "image": "gym_bag.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 17,
+      "name": "Water Bottle",
+      "category": "Accessories",
+      "price": 14.99,
+      "brand": "Hydro Flask",
+      "description": "Insulated water bottle to keep drinks cold for hours.",
+      "image": "water_bottle.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 18,
+      "name": "Fitness Tracker",
+      "category": "Accessories",
+      "price": 199.99,
+      "brand": "Fitbit",
+      "description": "Track your steps, heart rate, and calories burned.",
+      "image": "fitness_tracker.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 19,
+      "name": "Sports Cap",
+      "category": "Accessories",
+      "price": 19.99,
+      "brand": "New Era",
+      "description": "Comfortable sports cap with breathable fabric.",
+      "image": "sports_cap.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 20,
+      "name": "Knee Pads",
+      "category": "Accessories",
+      "price": 24.99,
+      "brand": "McDavid",
+      "description": "Protective knee pads designed for impact sports.",
+      "image": "knee_pads.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 21,
+      "name": "Protein Powder",
+      "category": "Sports Nutrition",
+      "price": 49.99,
+      "brand": "Optimum Nutrition",
+      "description": "High-quality protein powder to aid muscle recovery.",
+      "image": "protein_powder.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 22,
+      "name": "Energy Bars",
+      "category": "Sports Nutrition",
+      "price": 14.99,
+      "brand": "Clif Bar",
+      "description": "Nutritious energy bars for sustained energy.",
+      "image": "energy_bars.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 23,
+      "name": "Sports Drink",
+      "category": "Sports Nutrition",
+      "price": 19.99,
+      "brand": "Gatorade",
+      "description": "Electrolyte-packed drink for hydration.",
+      "image": "sports_drink.jpg",
+      "bestseller": true
+    },
+    {
+      "id": 24,
+      "name": "Creatine",
+      "category": "Sports Nutrition",
+      "price": 29.99,
+      "brand": "Cellucor",
+      "description": "Creatine supplement to enhance performance.",
+      "image": "creatine.jpg",
+      "bestseller": false
+    },
+    {
+      "id": 25,
+      "name": "Vitamins",
+      "category": "Sports Nutrition",
+      "price": 24.99,
+      "brand": "Vitafusion",
+      "description": "Daily multivitamins for overall health.",
+      "image": "vitamins.jpg",
+      "bestseller": true
+    }
+  ]
 }
