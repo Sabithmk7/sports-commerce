@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import MobileNav from "./MobileNav";
 
 function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to control mobile menu
+  const [isMenuOpen, setIsMenuOpen] = useState(false); 
   const navigate = useNavigate();
   const name = localStorage.getItem("name");
 
@@ -17,7 +17,7 @@ function Navbar() {
   }
 
   function toggleMenu() {
-    setIsMenuOpen(!isMenuOpen); // Toggle menu open/close
+    setIsMenuOpen(!isMenuOpen);
   }
 
   return (
@@ -46,7 +46,7 @@ function Navbar() {
         </div>
         <div className={s.menu_icon} onClick={toggleMenu}>
           {isMenuOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
-          {/* Toggle between menu and close icon */}
+         
         </div>
       </div>
 

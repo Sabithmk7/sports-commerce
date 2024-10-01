@@ -8,10 +8,11 @@ import SignupPage from "./Pages/Authorization/Signup/SignupPage";
 import { useDispatch } from "react-redux";
 import { fetchUsers } from "./Redux/Features/UserSlice";
 import { useEffect } from "react";
+import { fetchProducts } from "./Redux/Features/ProductSlice";
 
 function App() {
   const dispatch = useDispatch();
-  
+
   function getAllUsers() {
     dispatch(fetchUsers());
   }
@@ -20,6 +21,12 @@ function App() {
     getAllUsers();
   }, []);
 
+  function getAllProducts() {
+    dispatch(fetchProducts());
+  }
+  useEffect(() => {
+    getAllProducts();
+  }, []);
   return (
     <>
       <Routes>

@@ -45,7 +45,6 @@
   background-color: #eceff1;
 }
 
-/* Search section */
 .search_section {
   position: relative;
 }
@@ -56,7 +55,7 @@
   top: 22%;
 }
 
-/* Profile */
+
 .profile {
   display: flex;
   flex-direction: column;
@@ -67,26 +66,24 @@
   font-size: medium;
 }
 
-/* Hamburger Menu Icon (visible on mobile) */
+
 .menu_icon {
-  display: none; /* Ensure the menu icon is visible */
-  font-size: 1.5rem; /* Adjust the size to make it visible */
+  display: none; 
+  font-size: 1.5rem;
   cursor: pointer;
-  color: gray; /* Adjust the color if needed */
+  color: gray; 
+
 }
 
 
-
-/* Responsive Styles */
 @media (max-width: 768px) {
   .list {
     display: none;
   }
 
   .menu_icon {
-    display: block; /* Ensures it shows on mobile */
-    font-size: 2.5rem; /* Increase font size for better visibility */
-  }
+    display: block;
+    font-size: 2.5rem; }
 
   .right_section {
     font-size: 1.5rem;

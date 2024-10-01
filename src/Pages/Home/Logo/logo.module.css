@@ -1,0 +1,19 @@
+.logoSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4rem 0;
+  border-bottom: 1px solid #d1d5db;
+  background-color: transparent; 
+}
+
+.logo {
+  height: 8rem;
+  width: auto; 
+  max-width: 100%; 
+  margin-bottom: 1rem; 
+  transition: transform 0.3s; 
+  object-fit: contain;
+  background-color: transparent; 
+  border: none; 
+}

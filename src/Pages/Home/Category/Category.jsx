@@ -16,6 +16,7 @@ function Category() {
   
   return (
     <div className={s.container}>
+        <h3>Shop By Category</h3>
       <ul>
         {categories.map((v) => (
           <li key={v.id} className={s.category}>

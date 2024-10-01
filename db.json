@@ -37,7 +37,7 @@
       "price": 29.99,
       "brand": "Nike",
       "description": "Premium quality leather football for professional use.",
-      "image": "football.jpg",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1df8723d-5247-4563-81e8-caf744e83494/NIKE+SKILLS-FA24.png",
       "bestseller": true
     },
     {
@@ -47,7 +47,7 @@
       "price": 34.99,
       "brand": "Adidas",
       "description": "Durable basketball ideal for outdoor play.",
-      "image": "basketball.jpg",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a44621a281149709ca4ae420163c466_9366/All_Court_3.0_Ball_Orange_HM4975_01_standard.jpg",
       "bestseller": false
     },
     {
@@ -57,7 +57,7 @@
       "price": 89.99,
       "brand": "Wilson",
       "description": "Lightweight racket designed for professionals.",
-      "image": "tennis_racket.jpg",
+      "image": "https://d3dxkzk9npnkec.cloudfront.net/uploads/images/202403/img_x500_65e674c141c200-63027110-61169429.webp",
       "bestseller": true
     },
     {
@@ -67,7 +67,7 @@
       "price": 549.99,
       "brand": "Giant",
       "description": "Top-quality mountain bike for rugged terrains.",
-      "image": "mountain_bike.jpg",
+      "image": "https://bumsonthesaddle.com/cdn/shop/products/giant-talon-3-29er-good-grey-bumsonthesaddle-1.jpg?v=1719809164&width=120",
       "bestseller": false
     },
     {
@@ -77,7 +77,7 @@
       "price": 19.99,
       "brand": "Reebok",
       "description": "Non-slip yoga mat for superior grip during workouts.",
-      "image": "yoga_mat.jpg",
+      "image": "https://www.kdclick.com/s/637763a5ea78e200824eb640/63ce645f0b93378c996e1f88/71wtayyiizl-_sl1500-640x640.webp",
       "bestseller": true
     },
     {
@@ -87,7 +87,7 @@
       "price": 24.99,
       "brand": "Nike",
       "description": "Breathable fabric for maximum performance.",
-      "image": "running_tshirt.jpg",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20240802/XKni/66acdb306f60443f31e62e1f/-473Wx593H-469670213-black-MODEL.jpg",
       "bestseller": false
     },
     {
@@ -97,7 +97,7 @@
       "price": 34.99,
       "brand": "Adidas",
       "description": "High-waisted leggings for comfort and support.",
-      "image": "leggings.jpg",
+      "image": "https://m.media-amazon.com/images/I/41xhTwfed7L._SX679_.jpg",
       "bestseller": true
     },
     {
@@ -107,19 +107,10 @@
       "price": 59.99,
       "brand": "Nike",
       "description": "Official team jersey with authentic logos.",
-      "image": "football_jersey.jpg",
+      "image": "https://www.teamzo.com/images/re_1658223549_psg-home-shirt.jpg",
       "bestseller": false
     },
-    {
-      "id": 9,
-      "name": "Women's Sports Bra",
-      "category": "Sportswear & Apparel",
-      "price": 29.99,
-      "brand": "Puma",
-      "description": "Maximum support sports bra for intense activities.",
-      "image": "sports_bra.jpg",
-      "bestseller": true
-    },
+   
     {
       "id": 10,
       "name": "Swimming Trunks",
@@ -127,7 +118,7 @@
       "price": 19.99,
       "brand": "Speedo",
       "description": "Quick-dry swimming trunks ideal for water sports.",
-      "image": "swimming_trunks.jpg",
+      "image": "https://cdn.fcglcdn.com/brainbees/images/products/583x720/16232751a.webp",
       "bestseller": false
     },
     {
@@ -137,7 +128,7 @@
       "price": 99.99,
       "brand": "Nike",
       "description": "Lightweight running shoes with superior cushioning.",
-      "image": "running_shoes.jpg",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5c8ab74d-f88f-43b8-a79e-133dac7ee627/NIKE+DOWNSHIFTER+13.png",
       "bestseller": true
     },
     {
