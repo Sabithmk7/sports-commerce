@@ -40,9 +40,8 @@
 }
 
 .heroButton {
-  background-color: white;
-  color: black;
   padding: 0.75rem 1.5rem;
+  border: none;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
 }

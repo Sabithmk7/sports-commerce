@@ -1,4 +1,4 @@
-/* Main container */
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -12,7 +12,6 @@
   font-weight: bold;
 }
 
-/* Left section */
 .left_section {
   display: flex;
   justify-content: space-between;
@@ -28,7 +27,22 @@
   padding: 0 20px;
 }
 
-/* Right section */
+
+.list li a {
+  text-decoration: none; 
+  color: gray; 
+  transition: color 0.3s; 
+}
+
+.list li a:hover {
+  color: darkgray;
+}
+
+.activeLink {
+  color: black; 
+  font-weight: bold; 
+}
+
 .right_section {
   display: flex;
   align-items: center;
@@ -55,7 +69,6 @@
   top: 22%;
 }
 
-
 .profile {
   display: flex;
   flex-direction: column;
@@ -66,26 +79,34 @@
   font-size: medium;
 }
 
-
 .menu_icon {
-  display: none; 
+  display: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: gray; 
-
+  color: gray;
 }
 
+.wishlistIcon {
+  font-size: 2.3rem;
+}
 
 @media (max-width: 768px) {
+  .container {
+    padding: 20px 30px;
+  }
   .list {
     display: none;
   }
 
   .menu_icon {
     display: block;
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+  }
 
   .right_section {
     font-size: 1.5rem;
+  }
+  .logo {
+    margin-right: 2rem;
   }
 }

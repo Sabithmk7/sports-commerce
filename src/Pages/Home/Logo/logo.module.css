@@ -17,3 +17,12 @@
   background-color: transparent; 
   border: none; 
 }
+
+@media (max-width:712px) {
+  .logoSection{
+    display: none;
+  }
+  .logo{
+    display: none;
+  }
+}

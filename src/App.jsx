@@ -9,6 +9,9 @@ import { useDispatch } from "react-redux";
 import { fetchUsers } from "./Redux/Features/UserSlice";
 import { useEffect } from "react";
 import { fetchProducts } from "./Redux/Features/ProductSlice";
+import Apparels from "./Pages/Apparels/Apparels";
+import Navbar from "./Components/Header/Nav/Navbar";
+import Footer from "./Components/footer/Footer"
 
 function App() {
   const dispatch = useDispatch();
@@ -29,11 +32,14 @@ function App() {
   }, []);
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
+        <Route path="/apparels" element={<Apparels />} />
       </Routes>
+      <Footer/>
       <ToastContainer />
     </>
   );
