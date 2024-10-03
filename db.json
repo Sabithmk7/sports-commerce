@@ -4,34 +4,56 @@
       "id": "bda2",
       "name": "Sabith",
       "email": "s@gmail.com",
-      "password": "12345"
+      "password": "12345",
+      "cart": [
+        {
+          "id": "3",
+          "name": "Tennis Racket",
+          "category": "Accessories",
+          "price": 89.99,
+          "brand": "Wilson",
+          "description": "Lightweight racket designed for professionals.",
+          "image": "https://d3dxkzk9npnkec.cloudfront.net/uploads/images/202403/img_x500_65e674c141c200-63027110-61169429.webp",
+          "bestseller": true
+        },
+        {
+          "id": "1",
+          "name": "Football",
+          "category": "Accessories",
+          "price": 29.99,
+          "brand": "Nike",
+          "description": "Premium quality leather football for professional use.",
+          "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1df8723d-5247-4563-81e8-caf744e83494/NIKE+SKILLS-FA24.png",
+          "bestseller": true
+        }
+      ]
     }
   ],
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "image": "https://www.researchdive.com/blogImages/5NVUnjyBi7.jpeg",
       "name": "Sportswear & Apparel"
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "https://c.ndtvimg.com/2022-07/5mkud56_sneakers650_625x300_20_July_22.jpg",
       "name": "Footwear"
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "https://st2.depositphotos.com/1258191/5284/i/380/depositphotos_52841885-stock-photo-teenager-sports-equipment.jpg",
       "name": "Accessories"
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "https://eu-images.contentstack.com/v3/assets/blt2183a7e3152cc969/bltf2bed294a247e24c/64b1362df4f9923cf4036a60/Sports_20supplements_1197259141.jpg?width=1280&auto=webp&quality=95&format=jpg&disable=upscale",
       "name": "Sports Nutrition"
     }
   ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Football",
       "category": "Accessories",
       "price": 29.99,
@@ -41,7 +63,7 @@
       "bestseller": true
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Basketball",
       "category": "Accessories",
       "price": 34.99,
@@ -51,7 +73,7 @@
       "bestseller": false
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Tennis Racket",
       "category": "Accessories",
       "price": 89.99,
@@ -61,7 +83,7 @@
       "bestseller": true
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Mountain Bike",
       "category": "Accessories",
       "price": 549.99,
@@ -71,7 +93,7 @@
       "bestseller": false
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Yoga Mat",
       "category": "Accessories",
       "price": 19.99,
@@ -81,7 +103,7 @@
       "bestseller": true
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Men's Running T-shirt",
       "category": "Sportswear & Apparel",
       "price": 24.99,
@@ -91,7 +113,7 @@
       "bestseller": false
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Women's Leggings",
       "category": "Sportswear & Apparel",
       "price": 34.99,
@@ -101,7 +123,7 @@
       "bestseller": true
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Men's Football Jersey",
       "category": "Sportswear & Apparel",
       "price": 59.99,
@@ -110,9 +132,8 @@
       "image": "https://www.teamzo.com/images/re_1658223549_psg-home-shirt.jpg",
       "bestseller": false
     },
-   
     {
-      "id": 10,
+      "id": "10",
       "name": "Swimming Trunks",
       "category": "Sportswear & Apparel",
       "price": 19.99,
@@ -122,7 +143,7 @@
       "bestseller": false
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Running Shoes",
       "category": "Footwear",
       "price": 99.99,
@@ -132,67 +153,67 @@
       "bestseller": true
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Training Shoes",
       "category": "Footwear",
       "price": 89.99,
       "brand": "Adidas",
       "description": "Versatile training shoes for multi-purpose workouts.",
-      "image": "training_shoes.jpg",
+      "image": "https://m.media-amazon.com/images/I/41wWvZxkW8L._SS40_.jpg",
       "bestseller": false
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Football Cleats",
       "category": "Footwear",
       "price": 119.99,
       "brand": "Nike",
       "description": "Professional-grade football cleats with enhanced traction.",
-      "image": "football_cleats.jpg",
+      "image": "https://m.media-amazon.com/images/I/51pklGFP9tL._SS40_.jpg",
       "bestseller": true
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Tennis Shoes",
       "category": "Footwear",
       "price": 89.99,
       "brand": "Asics",
       "description": "Durable tennis shoes designed for hard courts.",
-      "image": "tennis_shoes.jpg",
+      "image": "https://m.media-amazon.com/images/I/31XofPCb2YL._SS40_.jpg",
       "bestseller": false
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Hiking Boots",
       "category": "Footwear",
       "price": 139.99,
       "brand": "Salomon",
       "description": "Waterproof hiking boots with ankle support.",
-      "image": "hiking_boots.jpg",
+      "image": "https://m.media-amazon.com/images/I/312lu9jmrzL._SS40_.jpg",
       "bestseller": true
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Gym Bag",
       "category": "Accessories",
       "price": 49.99,
       "brand": "Under Armour",
       "description": "Spacious gym bag with multiple compartments.",
-      "image": "gym_bag.jpg",
+      "image": "https://m.media-amazon.com/images/I/31VcWLa4CZL._SS40_.jpg",
       "bestseller": false
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Water Bottle",
       "category": "Accessories",
       "price": 14.99,
       "brand": "Hydro Flask",
       "description": "Insulated water bottle to keep drinks cold for hours.",
-      "image": "water_bottle.jpg",
+      "image": "https://m.media-amazon.com/images/I/31FCWasDA0L._SX300_SY300_QL70_FMwebp_.jpg",
       "bestseller": true
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Fitness Tracker",
       "category": "Accessories",
       "price": 199.99,
@@ -202,7 +223,7 @@
       "bestseller": false
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Sports Cap",
       "category": "Accessories",
       "price": 19.99,
@@ -212,7 +233,7 @@
       "bestseller": true
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Knee Pads",
       "category": "Accessories",
       "price": 24.99,
@@ -222,7 +243,7 @@
       "bestseller": false
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Protein Powder",
       "category": "Sports Nutrition",
       "price": 49.99,
@@ -232,7 +253,7 @@
       "bestseller": true
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Energy Bars",
       "category": "Sports Nutrition",
       "price": 14.99,
@@ -242,7 +263,7 @@
       "bestseller": false
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Sports Drink",
       "category": "Sports Nutrition",
       "price": 19.99,
@@ -252,7 +273,7 @@
       "bestseller": true
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Creatine",
       "category": "Sports Nutrition",
       "price": 29.99,
@@ -262,7 +283,7 @@
       "bestseller": false
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Vitamins",
       "category": "Sports Nutrition",
       "price": 24.99,

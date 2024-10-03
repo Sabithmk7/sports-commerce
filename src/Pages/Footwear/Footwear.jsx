@@ -1,25 +1,25 @@
 import React, { useEffect, useState } from "react";
-import s from "./apparels.module.css";
+import s from "./footwear.module.css";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { CiHeart } from "react-icons/ci";
 import CartButtons from "../../Components/CartButtons/CartButtons";
 
-function Apparels() {
+function Footwear() {
   const { products } = useSelector((state) => state.products);
-  const [apparels, setApparels] = useState([]);
+  const [footwear, setFootwear] = useState([]);
   useEffect(() => {
-    let filteredApparels = products.filter(
-      (item) => item.category === "Sportswear & Apparel"
+    let filteredfootwear = products.filter(
+      (item) => item.category === "Footwear"
     );
-    setApparels(filteredApparels);
+    setFootwear(filteredfootwear);
   }, [products]);
 
   return (
     <div className={s.container}>
-      <h1 className={s.title}>Sports Wear</h1>
+      <h1 className={s.title}>Footwears</h1>
       <ul className={s.grid}>
-        {apparels.map((item) => (
+        {footwear.map((item) => (
           <Link
             to={`/product/${item.id}`}
             key={item.id}
@@ -42,4 +42,4 @@ function Apparels() {
   );
 }
 
-export default Apparels;
+export default Footwear;

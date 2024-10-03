@@ -27,6 +27,7 @@ function SignupPage() {
       email: "",
       password: "",
       confirmPassword: "",
+      cart:[]
     },
     validationSchema: validation,
     onSubmit: (values) => {

@@ -14,14 +14,13 @@
   }
 }
 
-
-.title{
+.title {
   padding: 2rem;
   margin-left: 5rem;
   position: relative;
 }
 
-.title::before{
+.title::before {
   content: "";
   width: 1.8rem;
   height: 3rem;
@@ -29,7 +28,7 @@
   background: black;
   position: absolute;
   top: 1.7rem;
-  left:-1.3rem;
+  left: -1.3rem;
 }
 
 .card {
@@ -55,8 +54,8 @@
   border-radius: 4px;
   transition: 0.2s ease-in-out;
 }
-.card img:hover{
-    transform: scale(1.04);
+.card img:hover {
+  transform: scale(1.04);
 }
 
 .cardTitle {
@@ -69,6 +68,7 @@
   color: #4b5563;
   margin-bottom: 1rem;
 }
+
 
 
 .wishlistBtn {

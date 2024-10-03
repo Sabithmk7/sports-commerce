@@ -59,7 +59,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/sports-nutrition"
+              to="/nutrition"
               className={({ isActive }) =>
                 isActive ? s.activeLink : undefined
               }
