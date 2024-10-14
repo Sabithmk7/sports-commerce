@@ -9,12 +9,10 @@ import { useDispatch } from "react-redux";
 import { fetchUsers } from "./Redux/Features/UserSlice";
 import { useEffect } from "react";
 import { fetchProducts } from "./Redux/Features/ProductSlice";
-import Apparels from "./Pages/Apparels/Apparels";
 import Navbar from "./Components/Header/Nav/Navbar";
 import Footer from "./Components/footer/Footer"
-import Footwear from "./Pages/Footwear/Footwear";
-import Accessories from "./Pages/Accessories/Accessories";
-import Nutrition from "./Pages/Nutrition/Nutrition";
+
+import FilteredProducts from "./Pages/FilteredProducts/FilteredProducts";
 
 function App() {
   const dispatch = useDispatch();
@@ -33,6 +31,7 @@ function App() {
   useEffect(() => {
     getAllProducts();
   }, []);
+  
   return (
     <>
       <Navbar />
@@ -40,10 +39,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
-        <Route path="/apparels" element={<Apparels />} />
-        <Route path="/footwear" element={<Footwear />} />
-        <Route path="/accessories" element={<Accessories />} />
-        <Route path="/nutrition" element={<Nutrition />} />
+        <Route path="/products/:category" element={<FilteredProducts />} />
       </Routes>
       <Footer/>
       <ToastContainer />

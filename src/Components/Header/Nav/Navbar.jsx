@@ -25,11 +25,11 @@ function Navbar() {
   return (
     <div className={s.container}>
       <div className={s.left_section}>
-        <div className={s.logo}>Logo</div>
+        <div onClick={()=>navigate('/')} className={s.logo}>Logo</div>
         <ul className={s.list}>
           <li>
             <NavLink
-              to="/apparels"
+              to="/products/Sportswear & Apparel"
               className={({ isActive }) =>
                 isActive ? s.activeLink : undefined
               }
@@ -39,7 +39,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/footwear"
+              to="/products/Footwear"
               className={({ isActive }) =>
                 isActive ? s.activeLink : undefined
               }
@@ -49,7 +49,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/accessories"
+              to="/products/Accessories"
               className={({ isActive }) =>
                 isActive ? s.activeLink : undefined
               }
@@ -59,7 +59,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/nutrition"
+              to="/products/Sports Nutrition"
               className={({ isActive }) =>
                 isActive ? s.activeLink : undefined
               }

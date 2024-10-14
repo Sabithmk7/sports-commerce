@@ -1,25 +1,26 @@
 import React, { useEffect, useState } from "react";
-import s from "./Nutrition.module.css";
+import s from "./Filtered.module.css";
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { CiHeart } from "react-icons/ci";
 import CartButtons from "../../Components/CartButtons/CartButtons";
 
-function Nutrition() {
+function FilteredProducts() {
+  const { category } = useParams();
   const { products } = useSelector((state) => state.products);
-  const [Nutrition, setNutrition] = useState([]);
+  const [filteredProducts, setfilteredProducts] = useState([]);
   useEffect(() => {
-    let filteredNutrition = products.filter(
-      (item) => item.category === "Sports Nutrition"
+    let filteredfilteredProducts = products.filter(
+      (item) => item.category === category
     );
-    setNutrition(filteredNutrition);
-  }, [products]);
+    setfilteredProducts(filteredfilteredProducts);
+  }, [products,category]);
 
   return (
     <div className={s.container}>
-      <h1 className={s.title}>Sports Nutritions</h1>
+      <h1 className={s.title}>{category}</h1>
       <ul className={s.grid}>
-        {Nutrition.map((item) => (
+        {filteredProducts.map((item) => (
           <Link
             to={`/product/${item.id}`}
             key={item.id}
@@ -30,7 +31,7 @@ function Nutrition() {
             <div className={s.cardContent}>
               <h2 className={s.cardTitle}>{item.name}</h2>
               <p className={s.cardPrice}>${item.price}</p>
-              <CartButtons item={item}/>
+              <CartButtons item={item} />
             </div>
             <button className={s.wishlistBtn}>
               <CiHeart className={s.wishlistIcon} />
@@ -42,4 +43,4 @@ function Nutrition() {
   );
 }
 
-export default Nutrition;
+export default FilteredProducts;

@@ -15,16 +15,6 @@
           "description": "Lightweight racket designed for professionals.",
           "image": "https://d3dxkzk9npnkec.cloudfront.net/uploads/images/202403/img_x500_65e674c141c200-63027110-61169429.webp",
           "bestseller": true
-        },
-        {
-          "id": "1",
-          "name": "Football",
-          "category": "Accessories",
-          "price": 29.99,
-          "brand": "Nike",
-          "description": "Premium quality leather football for professional use.",
-          "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1df8723d-5247-4563-81e8-caf744e83494/NIKE+SKILLS-FA24.png",
-          "bestseller": true
         }
       ]
     }
